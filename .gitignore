@@ -1,0 +1,6 @@
+# Your personal, filled-in preferences — keep out of the shared repo.
+preferences.md
+
+# OS / editor cruft
+.DS_Store
+*.swp
