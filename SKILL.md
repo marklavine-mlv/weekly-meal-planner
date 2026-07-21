@@ -23,15 +23,15 @@ push back on (especially on portions and counts).
    (or ask the user to paste theirs). It defines household size, meals to plan,
    dietary rules, staples, stores, and optional macro targets. The template is
    `preferences.example.md` in this skill.
-2. **If no preferences exist, ask a short intake** — don't guess these:
-   - How many cooking nights this week, and how many flex days (leftovers / eating out)? *(default: 5 + 2)*
+2. **If no preferences exist, ask a short intake** — keep it to **5 questions in one message**,
+   and fill sensible defaults for anything they skip (say which defaults you used):
    - Who's eating? (# adults, # kids; is it one batch for the whole table?)
+   - What staples/proteins do you want to build around this week? Anything already on hand?
    - Any allergies, dislikes, or "never serve" foods?
-   - What staples/proteins do you want to build around this week? Any groceries already on hand?
-   - Which meals do you want planned — just dinners, or breakfast/lunch/snacks too?
-   - Do you want per-plate calories/macros? If so, for whom and what are the targets?
-   - Primary grocery store(s)?
-   Keep intake to one message. Fill sensible defaults for anything they skip and say so.
+   - How many cooking nights, and how many flex days for leftovers/eating out? *(default: 5 + 2)*
+   - Want per-plate calories/macros? If so, for whom, the targets, and is each macro a
+     **floor to hit** (e.g. protein) or a **ceiling to stay under** (e.g. fat)?
+   Default silently on the rest (dinners only; ask store/meal-scope later only if it matters).
 3. **Ask what's already in the house** if they didn't say. Plans should *use up* what's
    on hand before adding to the shopping list.
 
@@ -55,8 +55,15 @@ Read `references/output-format.md` for the exact layout. Core rules:
   cook, and a specific plate + (optional) macros for the primary eater.
 - **Macros are optional.** Only include them if preferences provide targets. When you do,
   use the format in `references/output-format.md`, and **flag the binding constraint**
-  (the macro the user runs out of first — e.g. fat) rather than every number. Mark
-  confidence on estimates; defer to the user's own logged actuals if they share them.
+  rather than every number. A constraint is either a **ceiling to stay under** (e.g. fat —
+  flag plates that push over it) or a **floor to hit** (e.g. protein — flag plates that fall
+  short). Read which from preferences and flag in the right direction. Mark confidence on
+  estimates; defer to the user's own logged actuals if they share them.
+- **When a night misses the constraint, fix it in place or reroute it.** If a plate falls
+  short on a floor (or blows a ceiling) and can't be easily patched — e.g. a low-protein
+  veg night — either name a concrete boost (add eggs / yogurt / a leftover protein) *or*
+  suggest making that dish a **flex-day meal** instead of a planned weeknight. Don't leave a
+  known-bad night standing.
 - **Estimate leftovers and route them.** For each night, say roughly how much is left and
   where it goes (next-day lunches, a second dinner, freeze). This is a headline feature —
   don't skip it. See `references/satiety-and-adherence.md`.

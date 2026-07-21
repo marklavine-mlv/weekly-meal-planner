@@ -32,8 +32,13 @@ Format, for the primary eater's plate:
 ~<cal> cal / <P>g P / <total C>g C (<net>g net) / <F>g F
 ```
 
-- **Lead with the plate total**, then flag the **binding constraint** for the day (e.g.
-  "fat's the watch item tonight — skip the cheese"). Don't annotate every macro.
+- **Lead with the plate total**, then flag the **binding constraint** for the day. Flag in
+  the direction the constraint runs:
+  - **Ceiling** (e.g. fat): call out plates that push over it — "fat's the watch item
+    tonight — skip the cheese."
+  - **Floor** (e.g. protein): call out plates that fall short — "low-protein night, add eggs
+    to clear your target."
+  Don't annotate every macro — just the one that binds.
 - **Mark confidence** on estimates you're unsure of ("moderate confidence — check the pack").
 - If the user shares a logged actual (e.g. a MyFitnessPal screenshot), **defer to it** and
   carry that number forward; don't relitigate.
