@@ -58,6 +58,29 @@ Fast, feels like a treat, good "earned the carbs" dinner after a hard training d
 - **Protein flag:** this one runs light — fry 1–2 eggs per adult on top to make it respectable.
 - Doesn't hold as leftovers; cook what you'll eat.
 
+### Sugar snap pea, herb & feta salad
+Summer BBQ side, invented on the fly (arrived two hours late; it held up fine). No real recipe —
+these are proportions to taste, not gospel. Adjust everything.
+- **Peas:** a few bags of sugar snap peas, rinsed, chopped into ~1-inch pieces. Trimming the end
+  strings is ideal; skipping it is fine. 🤷‍♂️
+- **Herbs:** a big pile of "bright" herbs, finely chopped — a pack each of basil, mint, dill.
+  Chives work too. Skip the wintery ones (sage, thyme).
+- **Feta:** crumbled by hand — Israeli feta blocks are creamier than pre-crumbled.
+- Toss peas + herbs + feta. Go heavy on herbs; enough feta to cut the sharpness of the peas
+  without taking over. Keep adding until the proportions feel right.
+- **Right before serving:** top with toasted pine nuts + the dressing, so the nuts stay crunchy.
+- Dress with the House lemon-dijon (below).
+
+## House dressings
+
+### Lemon-dijon (the everyday one)
+Bright, sweet-tangy, good on any raw-veg or grain salad.
+- Roughly equal parts olive oil and lemon juice; a few splashes of red wine or champagne vinegar;
+  a spoon of Dijon; salt, pepper; a little honey or maple to sweeten.
+- Shake in a jar or whisk to emulsify.
+- **Target flavor:** lemon-mustardy with a sweet tang — bright, not sharp. If it bites, add more
+  sweetener and taste again.
+
 ---
 
 ## Flavor principles (the house style)
