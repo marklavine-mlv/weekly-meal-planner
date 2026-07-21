@@ -57,6 +57,7 @@ weekly-meal-planner/
 ├── SKILL.md                          # the skill: workflow + rules
 ├── preferences.example.md            # copy to preferences.md and fill in
 ├── references/
+│   ├── recipes.md                    # the curated recipe library + house cooking style
 │   ├── output-format.md              # exact plan / grocery / prep / recipe layout + macro format
 │   └── satiety-and-adherence.md      # reusable principles: volume, rotation, leftovers
 ├── templates/

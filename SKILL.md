@@ -39,6 +39,10 @@ push back on (especially on portions and counts).
 
 Read `references/output-format.md` for the exact layout. Core rules:
 
+- **Pull dinners from `references/recipes.md` first** — that's the curated recipe library and
+  house cooking style. Draw from those dishes, then suggest new ones *in the same spirit*
+  (bold flavor, one-pan, weeknight-fast). Don't reach for random internet recipes when the
+  library covers the slot.
 - **Plan around their staples and a small rotation**, not novelty. Adherence beats variety.
 - **One dish per night that feeds the whole table.** No separate kids' meals unless the
   preferences say so; keep heat/spice out of the main batch and offer it at the table.
@@ -105,6 +109,7 @@ the count math again so the fix is verifiable.
 
 **Files in this skill**
 - `preferences.example.md` — copy to `preferences.md` and fill in once.
+- `references/recipes.md` — the curated recipe library + house cooking style; plan from this first.
 - `references/output-format.md` — exact plan / grocery / prep / recipe layout + macro format.
 - `references/satiety-and-adherence.md` — reusable principles: volume, rotation, leftovers.
 - `templates/weekly-plan-template.md`, `templates/grocery-list-template.md` — fill-in shells.
