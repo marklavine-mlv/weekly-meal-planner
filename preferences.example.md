@@ -19,6 +19,8 @@ in, the less the planner has to ask each week.
 - **Which meals:** [dinners only / breakfast + lunch + dinner / all + snacks — default: dinners]
 - **Target dinner time:** [e.g. 5:30pm — used to time prep and any calendar invites]
 - **Weeknight time budget:** [e.g. ~20–30 min, one pan — default: simple weeknight]
+- **Location (for weather):** [e.g. Austin, TX — so the plan can check the week's forecast]
+- **Plan around the weather?** [default: yes — hot days lean grill / no-cook, cold days lean braises / soups]
 
 ## Diet & restrictions
 - **Allergies (hard exclusions):** [e.g. tree nuts]

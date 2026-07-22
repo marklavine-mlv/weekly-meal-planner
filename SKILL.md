@@ -51,6 +51,12 @@ Read `references/output-format.md` for the exact layout. Core rules:
   (bold flavor, one-pan, weeknight-fast). Don't reach for random internet recipes when the
   library covers the slot.
 - **Plan around their staples and a small rotation**, not novelty. Adherence beats variety.
+- **Factor in the week's weather and season.** Match the *cooking method* to conditions, not
+  just the dish: a hot day or heatwave → grilling, no-cook or cold plates, big salads, minimal
+  oven/stovetop time; cold or rainy → braises, soups, roasts, oven-warming comfort food.
+  Get the forecast from the user, or from the `location` in `preferences.md` (look up the
+  week's forecast if you're able), or just ask "any weather worth planning around this week?"
+  If a specific day stands out (a 95° Thursday), plan that night's meal for it.
 - **One dish per night that feeds the whole table.** No separate kids' meals unless the
   preferences say so; keep heat/spice out of the main batch and offer it at the table.
 - **Match effort to the day.** Default to simple, one-pan, ~20–30 min unless told otherwise.
