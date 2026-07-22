@@ -5,10 +5,11 @@ description: >-
   an editable N-day plan (default 5 cooking nights + 2 flex days for leftovers or
   eating out), a grocery list grouped by store section, prep/cook notes with
   thaw/make-ahead timing, and short recipes. Optionally estimates per-plate
-  calories and macros for a "primary eater" when targets are provided. Use when
-  the user wants to map out weekly meals, build a meal plan, plan dinners for the
-  week, or organize a grocery run. Reads a preferences file if present; otherwise
-  asks a few short questions first.
+  calories and macros for a "primary eater" when targets are provided. Accepts a
+  photo of your fridge, pantry, or grocery receipt in place of typing what's on
+  hand. Use when the user wants to map out weekly meals, build a meal plan, plan
+  dinners for the week, or organize a grocery run. Reads a preferences file if
+  present; otherwise asks a few short questions first.
 ---
 
 # Weekly Meal Planner
@@ -27,6 +28,7 @@ push back on (especially on portions and counts).
    and fill sensible defaults for anything they skip (say which defaults you used):
    - Who's eating? (# adults, # kids; is it one batch for the whole table?)
    - What staples/proteins do you want to build around this week? Anything already on hand?
+     *(You can snap a photo of your fridge, pantry, or grocery receipt instead of typing.)*
    - Any allergies, dislikes, or "never serve" foods?
    - How many cooking nights, and how many flex days for leftovers/eating out? *(default: 5 + 2)*
    - Want per-plate calories/macros? If so, for whom, the targets, and is each macro a
@@ -34,6 +36,11 @@ push back on (especially on portions and counts).
    Default silently on the rest (dinners only; ask store/meal-scope later only if it matters).
 3. **Ask what's already in the house** if they didn't say. Plans should *use up* what's
    on hand before adding to the shopping list.
+4. **Handle photos as input.** The user can show you a picture instead of typing — a fridge
+   or pantry shot, a grocery receipt, or a handwritten list. Read it per
+   `references/reading-photos.md`: extract only what you can actually see, show a quick
+   "here's what I found" list, and **confirm before planning** (photos hide and miss things —
+   don't invent items or guess hidden quantities).
 
 ## 1. Draft the plan
 
@@ -110,6 +117,7 @@ the count math again so the fix is verifiable.
 **Files in this skill**
 - `preferences.example.md` — copy to `preferences.md` and fill in once.
 - `references/recipes.md` — the curated recipe library + house cooking style; plan from this first.
+- `references/reading-photos.md` — how to read a fridge/pantry/receipt photo into an on-hand list.
 - `references/output-format.md` — exact plan / grocery / prep / recipe layout + macro format.
 - `references/satiety-and-adherence.md` — reusable principles: volume, rotation, leftovers.
 - `templates/weekly-plan-template.md`, `templates/grocery-list-template.md` — fill-in shells.

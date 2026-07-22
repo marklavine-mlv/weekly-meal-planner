@@ -7,6 +7,9 @@ Plan a week of meals around the staples you already keep on hand. The skill prod
 - **prep & cook notes** with thaw/make-ahead timing, and
 - **short recipes** in your cooking style.
 
+**Snap a photo instead of typing.** Show it a picture of your fridge, pantry, or grocery
+receipt and it reads what's on hand — no need to list ingredients by hand.
+
 It optionally estimates **per-plate calories and macros** for one "primary eater" when you
 provide targets — otherwise it skips macros entirely.
 
@@ -58,6 +61,7 @@ weekly-meal-planner/
 ├── preferences.example.md            # copy to preferences.md and fill in
 ├── references/
 │   ├── recipes.md                    # the curated recipe library + house cooking style
+│   ├── reading-photos.md             # read a fridge/pantry/receipt photo into an on-hand list
 │   ├── output-format.md              # exact plan / grocery / prep / recipe layout + macro format
 │   └── satiety-and-adherence.md      # reusable principles: volume, rotation, leftovers
 ├── templates/
